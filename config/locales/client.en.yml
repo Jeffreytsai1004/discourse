@@ -7214,6 +7214,8 @@ en:
         alt: "custom emoji preview"
         delete_confirm: "Are you sure you want to delete the :%{name}: emoji?"
         settings: "Settings"
+        filter_label: "Show"
+        none_added: "You don't have any emoji yet. Add an emoji above to begin seeing a list of your emoji here."
 
       embedding:
         get_started: "If you'd like to embed Discourse on another website, begin by adding its host."
@@ -7263,7 +7265,7 @@ en:
         destination: "Destination"
         copy_to_clipboard: "Copy Permalink to Clipboard"
         delete_confirm: Are you sure you want to delete this permalink?
-        no_permalinks: "You don't have any permalinks yet. Create a new permalink above to begin seeing a list of your permalinks here."
+        no_permalinks: "You don’t have any permalinks yet. Create a new permalink above to begin seeing a list of your permalinks here."
         form:
           label: "New:"
           add: "Add"
