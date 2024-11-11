@@ -2,13 +2,13 @@
   <img src="images/discourse-readme-logo.png" width="300px">
 </a>
 
-Discourse is the online home for your community. We offer a 100% open source community platform to those who want complete control over how and where their site is run.
+Discourse 是您社区的在线家园。我们为那些希望完全控制其网站运行方式和位置的人提供 100% 开源的社区平台。
 
-Our platform has been battle-tested for over a decade and continues to evolve to meet users’ needs for a powerful community platform. Discourse allows you to create discussion topics and connect using real-time chat, as well as access an ever-growing number of official and community themes. In addition, we offer a wide variety of plugins for features ranging from chatbots powered by [Discourse AI](https://meta.discourse.org/t/discourse-ai/259214) to functionalities like SQL analysis using the [Data Explorer](https://meta.discourse.org/t/discourse-data-explorer/32566) plugin.
+我们的平台经过十多年的实战测试，并不断发展以满足用户对强大社区平台的需求。Discourse 允许您创建讨论主题并使用实时聊天进行连接，还可以访问不断增长的官方和社区主题。此外，我们提供各种插件，从由 [Discourse AI](https://meta.discourse.org/t/discourse-ai/259214) 驱动的聊天机器人到使用 [Data Explorer](https://meta.discourse.org/t/discourse-data-explorer/32566) 插件进行 SQL 分析等功能。
 
-To learn more, visit [**discourse.org**](https://www.discourse.org) and join our support community at [meta.discourse.org](https://meta.discourse.org).
+要了解更多信息，请访问 [**discourse.org**](https://www.discourse.org) 并加入我们的支持社区 [meta.discourse.org](https://meta.discourse.org)。
 
-## Screenshots
+## 截图
 
 <a href="https://blog.discourse.org/2023/08/discourse-3-1-is-here/"><img alt="Discourse 3.1" src="https://github-production-user-asset-6210df.s3.amazonaws.com/5862206/261215898-ae95f963-5ab4-4509-b87a-f9f6e9a109bf.png" width="720px"></a>
 
@@ -18,100 +18,96 @@ To learn more, visit [**discourse.org**](https://www.discourse.org) and join our
 
 <img src="https://user-images.githubusercontent.com/1681963/52239118-b304f800-289b-11e9-9904-16450680d9ec.jpg" alt="Mobile" width="414">
 
-Browse [lots more notable Discourse instances](https://www.discourse.org/customers).
+浏览 [更多著名的 Discourse 实例](https://www.discourse.org/customers)。
 
-## Development
+## 开发
 
-To get your environment set up, follow the community setup guide for your operating system.
+要设置您的环境，请按照适用于您操作系统的社区设置指南进行操作。
 
-1. If you're on macOS, try the [macOS development guide](https://meta.discourse.org/t/beginners-guide-to-install-discourse-on-macos-for-development/15772).
-1. If you're on Ubuntu, try the [Ubuntu development guide](https://meta.discourse.org/t/beginners-guide-to-install-discourse-on-ubuntu-for-development/14727).
-1. If you're on Windows, try the [Windows 10 development guide](https://meta.discourse.org/t/beginners-guide-to-install-discourse-on-windows-10-for-development/75149).
-1. If you're looking to use a simpler Docker-based install, try the [Docker development guide](https://meta.discourse.org/t/install-discourse-for-development-using-docker/102009).
+1. 如果您使用的是 macOS，请尝试 [macOS 开发指南](https://meta.discourse.org/t/beginners-guide-to-install-discourse-on-macos-for-development/15772)。
+2. 如果您使用的是 Ubuntu，请尝试 [Ubuntu 开发指南](https://meta.discourse.org/t/beginners-guide-to-install-discourse-on-ubuntu-for-development/14727)。
+3. 如果您使用的是 Windows，请尝试 [Windows 10 开发指南](https://meta.discourse.org/t/beginners-guide-to-install-discourse-on-windows-10-for-development/75149)。
+4. 如果您希望使用更简单的基于 Docker 的安装，请尝试 [Docker 开发指南](https://meta.discourse.org/t/install-discourse-for-development-using-docker/102009)。
 
-If you're familiar with how Rails works and are comfortable setting up your own environment, you can also try out the [**Discourse Advanced Developer Guide**](docs/DEVELOPER-ADVANCED.md), which is aimed primarily at Ubuntu and macOS environments.
+如果您熟悉 Rails 的工作原理并且对设置自己的环境感到舒适，您还可以尝试 [**Discourse 高级开发者指南**](docs/DEVELOPER-ADVANCED.md)，该指南主要针对 Ubuntu 和 macOS 环境。
 
-Before you get started, ensure you have the following minimum versions: [Ruby 3.2+](https://www.ruby-lang.org/en/downloads/), [PostgreSQL 13](https://www.postgresql.org/download/), [Redis 7](https://redis.io/download). If you're having trouble, please see our [**TROUBLESHOOTING GUIDE**](docs/TROUBLESHOOTING.md) first!
+在开始之前，请确保您拥有以下最低版本：[Ruby 3.2+](https://www.ruby-lang.org/en/downloads/)、[PostgreSQL 13](https://www.postgresql.org/download/)、[Redis 7](https://redis.io/download)。如果您遇到问题，请首先查看我们的 [**故障排除指南**](docs/TROUBLESHOOTING.md)！
 
-## Setting up Discourse
+## 设置 Discourse
 
-If you want to set up a Discourse forum for production use, see our [**Discourse Install Guide**](docs/INSTALL.md).
+如果您想为生产使用设置 Discourse 论坛，请参阅我们的 [**Discourse 安装指南**](docs/INSTALL.md)。
 
-If you're looking for official hosting, see [discourse.org/pricing](https://www.discourse.org/pricing/).
+如果您正在寻找官方托管服务，请参阅 [discourse.org/pricing](https://www.discourse.org/pricing)。
 
-## Requirements
+## 要求
 
-Discourse is built for the *next* 10 years of the Internet, so our requirements are high.
+Discourse 是为未来 10 年的互联网而构建的，因此我们的要求很高。
 
-Discourse supports the **latest, stable releases** of all major browsers and platforms:
+Discourse 支持所有主要浏览器和平台的**最新稳定版本**：
 
-| Browsers              | Tablets      | Phones       |
-| --------------------- | ------------ | ------------ |
-| Apple Safari          | iPadOS       | iOS          |
-| Google Chrome         | Android      | Android      |
-| Microsoft Edge        |              |              |
-| Mozilla Firefox       |              |              |
+| 浏览器              | 平板电脑      | 手机       |
+| ------------------- | ------------ | ---------- |
+| Apple Safari        | iPadOS       | iOS        |
+| Google Chrome       | Android      | Android    |
+| Microsoft Edge      |              |            |
+| Mozilla Firefox     |              |            |
 
-Additionally, we aim to support Safari on iOS 15.7+.
+此外，我们旨在支持 iOS 15.7+ 上的 Safari。
 
-## Built With
+## 构建工具
 
-- [Ruby on Rails](https://github.com/rails/rails) &mdash; Our back end API is a Rails app. It responds to requests RESTfully in JSON.
-- [Ember.js](https://github.com/emberjs/ember.js) &mdash; Our front end is an Ember.js app that communicates with the Rails API.
-- [PostgreSQL](https://www.postgresql.org/) &mdash; Our main data store is in Postgres.
-- [Redis](https://redis.io/) &mdash; We use Redis as a cache and for transient data.
-- [BrowserStack](https://www.browserstack.com/) &mdash; We use BrowserStack to test on real devices and browsers.
+- [Ruby on Rails](https://github.com/rails/rails) &mdash; 我们的后端 API 是一个 Rails 应用程序。它以 JSON 格式响应请求。
+- [Ember.js](https://github.com/emberjs/ember.js) &mdash; 我们的前端是一个与 Rails API 通信的 Ember.js 应用程序。
+- [PostgreSQL](https://www.postgresql.org/) &mdash; 我们的主要数据存储在 Postgres 中。
+- [Redis](https://redis.io/) &mdash; 我们使用 Redis 作为缓存和临时数据存储。
+- [BrowserStack](https://www.browserstack.com/) &mdash; 我们使用 BrowserStack 在真实设备和浏览器上进行测试。
 
-Plus *lots* of Ruby Gems, a complete list of which is at [/main/Gemfile](https://github.com/discourse/discourse/blob/main/Gemfile).
+此外，还有*大量*的 Ruby Gems，完整列表在 [/main/Gemfile](https://github.com/discourse/discourse/blob/main/Gemfile)。
 
-## Contributing
+## 贡献
 
 [![Build Status](https://github.com/discourse/discourse/actions/workflows/tests.yml/badge.svg)](https://github.com/discourse/discourse/actions)
 
-Discourse is **100% free** and **open source**. We encourage and support an active, healthy community that
-accepts contributions from the public &ndash; including you!
+Discourse 是 **100% 免费** 和 **开源** 的。我们鼓励并支持一个活跃、健康的社区，接受来自公众的贡献 &ndash; 包括您！
 
-Before contributing to Discourse:
+在为 Discourse 做出贡献之前：
 
-1. Please read the complete mission statements on [**discourse.org**](https://www.discourse.org). Yes we actually believe this stuff; you should too.
-2. Read and sign the [**Electronic Discourse Forums Contribution License Agreement**](https://www.discourse.org/cla).
-3. Dig into [**CONTRIBUTING.MD**](CONTRIBUTING.md), which covers submitting bugs, requesting new features, preparing your code for a pull request, etc.
-4. Always strive to collaborate [with mutual respect](https://github.com/discourse/discourse/blob/main/docs/code-of-conduct.md).
-5. Not sure what to work on? [**We've got some ideas.**](https://meta.discourse.org/t/so-you-want-to-help-out-with-discourse/3823)
+1. 请阅读 [**discourse.org**](https://www.discourse.org) 上的完整使命声明。是的，我们确实相信这些东西；您也应该如此。
+2. 阅读并签署 [**电子 Discourse 论坛贡献许可协议**](https://www.discourse.org/cla)。
+3. 深入了解 [**CONTRIBUTING.MD**](CONTRIBUTING.md)，其中涵盖了提交错误、请求新功能、准备代码以进行拉取请求等。
+4. 始终努力 [以相互尊重的方式](https://github.com/discourse/discourse/blob/main/docs/code-of-conduct.md) 进行合作。
+5. 不确定要做什么？[**我们有一些想法。**](https://meta.discourse.org/t/so-you-want-to-help-out-with-discourse/3823)
 
+我们期待看到您的拉取请求！
 
-We look forward to seeing your pull requests!
+## 安全
 
-## Security
+我们非常重视 Discourse 的安全性；我们所有的代码都是 100% 开源和同行评审的。请阅读 [我们的安全指南](https://github.com/discourse/discourse/blob/main/docs/SECURITY.md) 以了解 Discourse 中的安全措施概述，或者如果您希望报告安全问题。
 
-We take security very seriously at Discourse; all our code is 100% open source and peer reviewed. Please read [our security guide](https://github.com/discourse/discourse/blob/main/docs/SECURITY.md) for an overview of security measures in Discourse, or if you wish to report a security issue.
+## Discourse 团队
 
-## The Discourse Team
+最初的 Discourse 代码贡献者可以在 [**AUTHORS.MD**](docs/AUTHORS.md) 中找到。有关为 Discourse 的设计和实施做出贡献的众多个人的完整列表，请参阅 [官方 Discourse 博客](https://blog.discourse.org/2013/02/the-discourse-team/) 和 [GitHub 的贡献者列表](https://github.com/discourse/discourse/contributors)。
 
-The original Discourse code contributors can be found in [**AUTHORS.MD**](docs/AUTHORS.md). For a complete list of the many individuals that contributed to the design and implementation of Discourse, please refer to [the official Discourse blog](https://blog.discourse.org/2013/02/the-discourse-team/) and [GitHub's list of contributors](https://github.com/discourse/discourse/contributors).
+## 版权 / 许可证
 
-## Copyright / License
+版权所有 2014 - 2023 Civilized Discourse Construction Kit, Inc.
 
-Copyright 2014 - 2023 Civilized Discourse Construction Kit, Inc.
-
-Licensed under the GNU General Public License Version 2.0 (or later);
-you may not use this work except in compliance with the License.
-You may obtain a copy of the License in the LICENSE file, or at:
+根据 GNU 通用公共许可证第 2.0 版（或更高版本）许可；
+除非遵守许可证，否则您不得使用此作品。
+您可以在 LICENSE 文件中或在以下网址获取许可证副本：
 
    https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+除非适用法律要求或书面同意，否则软件
+按“原样”分发，不提供任何明示或暗示的保证。
+有关详细信息，请参阅许可证。
 
-Discourse logo and “Discourse Forum” ®, Civilized Discourse Construction Kit, Inc.
+Discourse 徽标和“Discourse 论坛” ®，Civilized Discourse Construction Kit, Inc.
 
-## Accessibility
+## 可访问性
 
-To guide our ongoing effort to build accessible software we follow the [W3C’s Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/). If you'd like to report an accessibility issue that makes it difficult for you to use Discourse, email accessibility@discourse.org. For more information visit [discourse.org/accessibility](https://discourse.org/accessibility).
+为了指导我们持续努力构建可访问的软件，我们遵循 [W3C 的 Web 内容可访问性指南 (WCAG)](https://www.w3.org/TR/WCAG21/)。如果您想报告使您难以使用 Discourse 的可访问性问题，请发送电子邮件至 accessibility@discourse.org。有关更多信息，请访问 [discourse.org/accessibility](https://discourse.org/accessibility)。
 
-## Dedication
+## 奉献
 
-Discourse is built with [love, Internet style.](https://www.youtube.com/watch?v=Xe1TZaElTAs)
+Discourse 是用 [爱，互联网风格](https://www.youtube.com/watch?v=Xe1TZaElTAs) 构建的。
